@@ -1,0 +1,92 @@
+.contact {
+  text-align: center;
+}
+
+/* Hero Section */
+.contact-hero {
+  background: linear-gradient(to right, #0b3d91, #1e5cff);
+  color: white;
+  padding: 60px 50px;
+}
+
+.contact-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Contact Layout */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 50px;
+  flex-wrap: wrap;
+}
+
+/* Left info box */
+.contact-info {
+  width: 350px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ddd;
+  text-align: left;
+}
+
+/* Right form box */
+.contact-form {
+  width: 450px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ddd;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.send-btn {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #ffd700;
+  color: #0b3d91;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .internship-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .internship-card {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+
+
+
+.contact-form button {
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  transform: scale(1.05);
+  background-color: #08306b;
+}

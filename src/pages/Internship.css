@@ -1,0 +1,90 @@
+.internship {
+  text-align: center;
+}
+
+/* Hero Section */
+.internship-hero {
+  background: linear-gradient(to right, #0b3d91, #1e5cff);
+  color: white;
+  padding: 60px 50px;
+}
+
+.internship-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Cards Section */
+.internship-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px 50px;
+  flex-wrap: wrap;
+}
+
+.internship-card {
+  width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ddd;
+  transition: transform 0.3s ease;
+}
+
+.internship-card:hover {
+  transform: translateY(-5px);
+}
+
+.apply-btn {
+  margin-top: 15px;
+  padding: 8px 15px;
+  border: none;
+  background-color: #ffd700;
+  color: #0b3d91;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Benefits Section */
+.internship-benefits {
+  background: #f4f6ff;
+  padding: 50px;
+}
+
+.internship-benefits ul {
+  list-style: none;
+  padding: 0;
+}
+
+.internship-benefits li {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+
+@media (max-width: 768px) {
+  .internship-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .internship-card {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+
+
+.service-card,
+.internship-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover,
+.internship-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
