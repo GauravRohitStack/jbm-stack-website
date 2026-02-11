@@ -1,5 +1,6 @@
 import "./Home.css";
 import heroBg from "../assets/images/hero-bg.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -16,8 +17,18 @@ const Home = () => {
             </p>
 
             <div className="hero-buttons">
+
+              {/* <button className="primary-btn">Explore Internships</button> */}
+              <Link to="/internship">
               <button className="primary-btn">Explore Internships</button>
-              <button className="secondary-btn">Contact Us</button>
+              </Link>
+
+              {/* <button className="secondary-btn">Contact Us</button> */}
+
+            <Link to="/contact">
+            <button className="secondary-btn">Contact Us</button>
+            </Link>
+
             </div>
           </div>
         </div>

@@ -1,6 +1,8 @@
 /* HERO SECTION */
+
 .hero {
-  height: 90vh;
+  height:500px;
+  width: 1500px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
