@@ -14,7 +14,16 @@ const Navbar = () => {
         <li><Link to="/contact">Contact</Link></li>
       </ul>
 
-      <button className="apply-btn">Apply Now</button>
+      {/* <button className="apply-btn">Apply Now</button> */}
+
+    <a 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfE0L7VZnIbAnhP3tESXUTIe7nvRA-u-uGnX0h0D2NQbgFIag/viewform?usp=dialog" 
+  target="_blank" 
+  rel="noreferrer"
+>
+<button className="apply-btn">Apply Now</button>
+</a>
+
     </nav>
   );
 };
