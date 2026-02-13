@@ -15,7 +15,7 @@ const Contact = () => {
 
         <div className="contact-info">
           <h2>Get in Touch</h2>
-          <p>📍 Location: HBR Layout, Bangalore India</p>
+          <p>📍 Location:Remote, Noida, Hyderabad, Bangalore India</p>
           <p>📧 Email: hr@jbmstack.com</p>
           <p>📞 Phone: +91-9311896183</p>
           <p>🌐 Website: www.jbmstack.com</p>
