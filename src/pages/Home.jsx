@@ -12,8 +12,13 @@ const Home = () => {
           <div className="hero-content">
             <h1>Innovative Software Solutions</h1>
             <p>
-              JBM Stack empowers students and professionals with real-world
-              training, internships, and industry-ready projects.
+              
+              JBM Stack is a modern technology company delivering advanced AI solutions, scalable software systems, and innovative digital products. We help businesses streamline operations, enhance performance, and unlock new growth opportunities through smart, data-driven technology.
+              From full-stack development and cloud infrastructure to AI-powered automation and custom enterprise solutions, we build systems that are secure, scalable, and future-ready.
+              At JBM Stack, we don’t just develop software — we create intelligent foundations that empower businesses to grow faster and operate smarter.
+
+
+
             </p>
 
             <div className="hero-buttons">
