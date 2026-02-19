@@ -1,5 +1,5 @@
 import "./Home.css";
-import heroBg from "../assets/images/hero-bg.png";
+import heroBg from "../assets/images/";
 import { Link } from "react-router-dom";
 
 const Home = () => {
