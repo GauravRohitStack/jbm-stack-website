@@ -211,7 +211,7 @@ const Footer = () => {
               <FaInstagram />
             </a>
 
-            <a href="https://www.linkedin.com/company/YourCompanyName"
+            <a href="https://www.linkedin.com/company/111803107/admin/notifications/all"
               target="_blank" rel="noreferrer">
               <FaLinkedinIn />
             </a>
