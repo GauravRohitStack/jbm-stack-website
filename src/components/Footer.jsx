@@ -252,7 +252,7 @@ const Footer = () => {
         <div className="footer-contact">
           <h4>Contact Us</h4>
           <p className="col">Email: hr@jbmstack.com</p>
-          <p className="col">Phone: +91-9311896183</p>
+          {/* <p className="col">Phone: +91-9311896183</p> */}
           <p className="col">Founder: Rohit Singh Gaurav</p>
         </div>
 

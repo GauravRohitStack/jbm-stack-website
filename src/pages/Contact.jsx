@@ -17,7 +17,7 @@ const Contact = () => {
           <h2>Get in Touch</h2>
           <p>📍 Location: Remote, Noida, India</p>
           <p>📧 Email: hr@jbmstack.com</p>
-          <p>📞 Phone: +91-9311896183</p>
+          {/* /<p>📞 Phone: +91-9311896183</p> */}
           <p>🌐 Website: www.jbmstack.com</p>
         </div>
 
